@@ -12,12 +12,12 @@ public class MainTest {
         rootNode.right.right = new TreeNode(107);
         rootNode.right.right.left = new TreeNode(101);
 
-        System.out.println("Using Recursive solution:");
+        System.out.println("Sử dụng phương pháp Đệ Quy: ");
         bin.preorder(rootNode);
 
         System.out.println();
         System.out.println("-------------------------");
-        System.out.println("Using Iterative solution:");
+        System.out.println("Sử dụng phương pháp Vòng Lặp: ");
         bin.preorderIter(rootNode);
 
     }
